@@ -1,0 +1,46 @@
+{% extends "./index.html" %}
+{% block header %}
+{% endblock %}
+{% block content %}
+
+<script>
+    function myFunction(model) {
+        console.log(model)
+  
+    }
+    function getOption(journal) {
+      journal_id=journal.id
+      modelElement = document.querySelector('#model');
+      featureElement = document.querySelector('#feature');
+      selectedModel = modelElement.value;
+      selectedFeature = featureElement.value;
+      console.log(journal_id)
+      window.location.href = "detail/"+selectedModel+"/"+selectedFeature+"/"+journal_id;
+      console.log(journal_id)
+  }
+    </script>
+
+{% for i in journal_detail %}
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <h3 class="display-6 fw-bold">{{i.title}}</h3>
+      <p class="col-md-20 fs-8">{{i.abstract}}</p>
+    </div>
+  </div>
+{%endfor%}
+
+<div class="container py-4">
+<div class="row row-cols-1 row-cols-md-3">
+    {% for i in rec_data %}
+    <div class="col mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+        <a href="{{i.id}}"><h5 class="card-title">{{i.title}}</h5></a>
+          <p class="card-text">{{i.abstract|slice:":255"}}</p>
+        </div>
+      </div>
+    </div>
+    {%endfor%}
+  </div>
+</div>
+{% endblock %}

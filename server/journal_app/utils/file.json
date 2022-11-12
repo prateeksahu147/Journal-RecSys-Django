@@ -1,0 +1,12 @@
+{
+    "VECTORIZER": {
+        "BOW_TITLE_VEC" : "./data/title_features_count_vectorizer.pickle",
+        "BOW_ABSTRACT_VEC" : "./data/abstract_features_count_vectorizer.pickle",
+        "TFIDF_TITLE_VEC" : "",
+        "TFIDF_ABSTRACT_VEC" : ""
+    } ,
+    "VOCAB":{
+        "TFIDF_TITLE_VOCAB": "",
+        "TFIDF_ABSTRACT_VOCAB": ""
+    }
+}
