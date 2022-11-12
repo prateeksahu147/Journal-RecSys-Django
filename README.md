@@ -1,4 +1,10 @@
 # RecSys-Django-Application
+# SET UP
+
+## Data 
+1. Download "data" folder from [here](www.google.com) and past into "server" folder.
+
+## Run App
 
 1. Installing virtualenv
 - python3 -m pip install --user virtualenv/
