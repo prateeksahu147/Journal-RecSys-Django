@@ -3,6 +3,10 @@
 ## Content-based recommendation system
 * A Content-based recommendation system suggests items to a user by evaluating the similarity between them. This type of recommender system focuses on the characteristics or attributes of the products being recommended, and it uses the descriptions of these items to identify similarities. Additionally, the user's past behavior and preferences may also be taken into account to provide more personalized recommendations.
 
+## Demo
+
+* [![Everything Is AWESOME](https://user-images.githubusercontent.com/43596921/215983759-63af52c2-75b0-40c9-930f-08f247ed5d55.png)](https://youtu.be/4rUIEYFIEmk "Everything Is AWESOME")
+
 ## Blog
 * [Content based Journal Recommendation Engine](https://medium.com/@pratiksahu147/content-based-journal-recommendation-engine-92ff8d5249e8)
 
