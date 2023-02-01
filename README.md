@@ -10,13 +10,13 @@
 
 ## Run App
 
-1. Installing virtualenv
+1. Install virtual env
 - python3 -m pip install --user virtualenv/
 
-2. Creating a virtual environment at root folder
+2. Create a virtual environment at the root folder
 - python3 -m venv env
 
-3. Activating a virtual environment
+3. Activate the virtual environment
 - source env/bin/activate
 
 4. install packages using pip according to the requirements.txt
