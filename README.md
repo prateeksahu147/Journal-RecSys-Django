@@ -1,4 +1,4 @@
-# RecSys-Django-Application
+# Research paper recommendation engine case studies in scientific domains
 
 ## Content-based recommendation system
 * A Content-based recommendation system suggests items to a user by evaluating the similarity between them. This type of recommender system focuses on the characteristics or attributes of the products being recommended, and it uses the descriptions of these items to identify similarities. Additionally, the user's past behavior and preferences may also be taken into account to provide more personalized recommendations.
